@@ -1,0 +1,50 @@
+/*
+ # WebKick
+ # Martin.Muzatko
+ # martinmuzatko@msn.com
+ #
+ # LICENSE: MIT;
+ #
+ # Just some obsolete notices:
+ # -----------------------------------------------------------
+ # OBEY THE DRY PRINCIPLE(http://de.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself)
+ # -----------------------------------------------------------
+ # Follow the google guidelines for coding - http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
+ # We prefer Allman Indent Style (ISO C international standard) - http://en.wikipedia.org/wiki/Indent_style#Allman_style
+ # We prefer 4:1 space to tab;
+ # Avoid !important overrides.
+ */
+ 
+ 
+/* IMPORTING VENDOR PACKAGES (Typeplate, CSS Resets, Twitter Bootstrap, whatever you like) */
+/*@import url(vendor/twitter.bootstrap/css/bootstrap.min.css);
+*/
+/* IMPORTING BASE RULES - http://smacss.com/book/type-base */
+@import url(css/base.css);
+ 
+/* IMPORTING LAYOUT RULES - http://smacss.com/book/type-layout */
+@import url(css/layout.css);
+ 
+/* IMPORTING STATE RULES - http://smacss.com/book/type-state */
+@import url(css/state.css);
+ 
+/* IMPORTING THEME RULES - http://smacss.com/book/type-theme */
+@import url(css/theme.css);
+
+
+/* IMPORTING MODULES - http://smacss.com/book/type-modules */
+@import url(css/module/module.css);
+/* NAVIGATION MODULE - rules for main navigation on top */
+@import url(css/module/navigation.css);
+/* FOOTER MODULE - Footer on bottom of page */
+@import url(css/module/footer.css);
+/* TEASER MODULE - for Teasers */
+@import url(css/module/teaser.css);
+
+/* IF NEEDED */
+
+/* 	Fonts are included via css/fonts/<fontname>.css
+	Fonts are located in fonts/<fontname>/
+	Get Fontstylesheets by http://fontsquirrel.com/
+	@import url(css/fonts/DejaVuSans.css);
+*/
