@@ -2,11 +2,13 @@
 ##Introduction
 
 
-WebKick is an empty Template/Directory scheme to kickstart your HTML/CSS/JS Templates which you can use for any CMS.
-Though, I consider TYPO3 as preferred CMS. You can, with sufficient knowledge, build in any CMS or environment you wish to.
-Like any other project - it includes a lot of other open source here to enable easy workflow.
+WebKick is a lightweight Template/Directory scheme to kickstart your HTML/CSS/JS Templates which you can use for any CMS or Application.
+Equipped with a lightweight modernizr alternative, it is suited for small and big projects of any kind.
+You can, with sufficient knowledge, build in any CMS or environment you wish to.
+Like any other project - it includes a lot of other open source to accelerate development.
+This is not just another boilerplate, it is much more a way to organize your stuff with the benefits of easy and fun workflow.
 
-This is not just another boilerplate, it is much more a way to organize your stuff.
+Support for mobile will be added soon.
 
 ###Based on the SMACSS principles
 
