@@ -5,6 +5,10 @@
  #
  # LICENSE: MIT;
  #
+ #
+ # This file is used for production or when you are sure you do not need automatic sass/less/whatever parsing and prefixfree.
+ # If you do not 
+ #
  # Just some obsolete notices:
  # -----------------------------------------------------------
  # OBEY THE DRY PRINCIPLE(http://de.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself)
