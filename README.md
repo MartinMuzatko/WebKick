@@ -28,7 +28,7 @@ Getting to know webdevelopment and/or design together with HTML and CSS is hard 
 Evenly divided elements can be achieved really quick!
 you just have to give the parentelement the class `group` and it will divide all subelements.
 
-```css
+```html
 <ul class="group">
 	<li>item 1</li>
 	<li>item 2</li>
