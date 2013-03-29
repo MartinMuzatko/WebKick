@@ -2,7 +2,7 @@
 ##Introduction
 
 This project used to be my empty projecttemplate for new templates.
-With further enhancement, Webkick becomes the following:
+With further enhancement, Webkick becomes the following.
 ---
 WebKick is a lightweight Template/Directory scheme to kickstart your HTML/CSS/JS Templates which you can use for any CMS or Application.
 Equipped with a lightweight modernizr alternative, it is suited for small and big projects of any kind.
