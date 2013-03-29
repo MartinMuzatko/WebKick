@@ -45,3 +45,7 @@ you just have to give the parentelement the class `group` and it will divide all
 Prefixfree - Lea Verou - https://github.com/LeaVerou
 
 Livereload - https://livereload.com
+
+###Browser Testing Results
+
+The Framework works with every modern browser. However, IE8 does not support the CSS3 autoframework.
