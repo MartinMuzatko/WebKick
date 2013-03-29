@@ -1,2 +1,12 @@
-/*Various Themes to test your template.*/
+/*Various Themes to test your template.
 
+ # Give your html or another parent element one of the classes to test different aspects of your layout
+ #
+*/
+
+
+.ruler *
+{
+	background: url(../img/ruler-top.gif)  repeat-x,
+				url(../img/ruler-left.gif) repeat-y;
+}
