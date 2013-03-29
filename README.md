@@ -21,8 +21,24 @@ WebKick adds another bunch of standards to organize templates. This template of 
 
 Getting to know webdevelopment and/or design together with HTML and CSS is hard work. Getting it right together with applying coding guidelines and standards is another pair of shoes. Seperating content from structure is the first step into a reasonable environment which you can extend and build upon. 
 
-##Appendix
+##Usage
 
+###Grouping
+
+Evenly divided elements can be achieved really quick!
+you just have to give the parentelement the class `group` and it will divide all subelements.
+
+```css
+<ul class="group">
+	<li>item 1</li>
+	<li>item 2</li>
+	<li>item 3</li>
+	<li>item 4</li>
+	<li>item 5</li>
+</ul>
+```
+
+##Appendix
 
 ###Vendor Scripts
 
