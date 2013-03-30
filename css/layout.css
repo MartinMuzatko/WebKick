@@ -38,11 +38,6 @@
 	width: 80%;
 }
 
-.even > *
-{
-	height: 100%;
-}
-
 .group > *,
 [class*="group"] > *
 {
