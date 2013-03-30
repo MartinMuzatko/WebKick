@@ -13,119 +13,76 @@
 
 /* group elements */
 
-.group:before,
-.group:after
+.group:before, [class*="group"]:before,
+.group:after, [class*="group"]:after
 {
     display: table;
 }
 
-.group:after
+.group:after, [class*="group"]:after
 {
     clear: both;
 }
 
-.group
+.group, [class*="group"]
 {
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
 /* Just some silly colors to test the framework */
+/* demonstration of the framework */
 
-.group
+.page
 {
+	margin: 2em auto;
+	width: 80%;
+	display: table;
 }
 
-.group > *
+.even > *
+{
+	height: 100%;
+}
+
+.group > *,
+[class*="group"] > *
 {
 	border: 1px solid #444;
 	padding: .2em;
 }
 
-
-/* just for testing - demonstration of the framework */
-
-section
-{
-	margin: 0 auto;
-	width: 80%;
-}
-
-.group > *:nth-child(1)
-{
-	background: hsl(36, 50%, 50%);
-}
-.group > *:nth-child(2)
-{
-	background: hsl(72, 50%, 50%);
-}
-.group > *:nth-child(3)
-{
-	background: hsl(108, 50%, 50%);
-}
-.group > *:nth-child(4)
-{
-	background: hsl(144, 50%, 50%);
-}
-.group > *:nth-child(5)
-{
-	background: hsl(180, 50%, 50%);
-}
-.group > *:nth-child(6)
-{
-	background: hsl(216, 50%, 50%);
-}
-.group > *:nth-child(7)
-{
-	background: hsl(252, 50%, 50%);
-}
-.group > *:nth-child(8)
-{
-	background: hsl(288, 50%, 50%);
-}
-.group > *:nth-child(9)
-{
-	background: hsl(324, 50%, 50%);
-}
-.group > *:nth-child(10)
-{
-	background: hsl(360, 50%, 50%);
-}
-
 /* Start of the unlimited framework */
 
 
-.group > *
+.group > *,
+[class*="group"] > *
 {
 	float: left;
 }
-/* one item */
+
 .group > *:first-child:nth-last-child(1)
 {
     width: 100%;
 }
 
-/* two items */
 .group > *:first-child:nth-last-child(2),
 .group > *:first-child:nth-last-child(2) ~ *
 {
     width: 50%;
 }
 
-/* three items */
 .group > *:first-child:nth-last-child(3),
 .group > *:first-child:nth-last-child(3) ~ *
 {
     width: 33.3333%;
 }
 
-/* four items */
 .group > *:first-child:nth-last-child(4),
 .group > *:first-child:nth-last-child(4) ~ *
 {
     width: 25%;
 }
 
-/* four items */
 .group > *:first-child:nth-last-child(5),
 .group > *:first-child:nth-last-child(5) ~ *
 {
@@ -206,4 +163,14 @@ section
 .group > *:first-child:nth-last-child(20) ~ *
 {
 	width: 5%
+}
+
+[class*="group-1-4"] > *:first-child:nth-last-child(2)
+{
+	width: 25%
+}
+
+[class*="group-1-4"] > *:first-child:nth-last-child(2) ~ *
+{
+	width: 75%;
 }
