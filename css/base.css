@@ -1,0 +1,79 @@
+/* Base Rules */
+
+h1
+{
+	font-size: ;
+	line-height: ;
+	margin: ;
+}
+
+h2
+{
+	font-size: ;
+	line-height: ;
+	margin: ;
+}
+
+h3
+{
+	font-size: ;
+	line-height: ;
+	margin: ;
+}
+
+h4
+{
+	font-size: ;
+	line-height: ;
+	margin: ;
+}
+
+h5
+{
+	font-size: ;
+	line-height: ;
+	margin: ;
+}
+
+h6
+{
+	font-size: ;
+	line-height: ;
+	margin: ;
+}
+
+html,
+body
+{
+	height: 100%;
+	width: 100%;
+}
+
+/* Something to remember order of a rules: LoVe HAte
+ * To take care about specificity overrides.
+ */
+
+a:link
+{
+
+}
+
+a:visited
+{
+
+}
+
+a:hover
+{
+
+}
+
+a:active
+{
+
+}
+
+a:focus
+{
+
+}
