@@ -1,5 +1,16 @@
 /* Base Rules */
 
+html,
+body
+{
+	height: 100%;
+	width: 100%;
+	font-size: 62.5%; /* 1em - 10px for you weirdos out there */
+	font-size: 100%; /* 1em - 16px */
+
+	font-family: Arsenal, sans-serif;
+}
+
 h1
 {
 	font-size: ;
@@ -40,13 +51,6 @@ h6
 	font-size: ;
 	line-height: ;
 	margin: ;
-}
-
-html,
-body
-{
-	height: 100%;
-	width: 100%;
 }
 
 /* Something to remember order of a rules: LoVe HAte
