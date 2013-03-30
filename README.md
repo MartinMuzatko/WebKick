@@ -19,7 +19,7 @@ WebKick adds another bunch of standards to organize templates. This template of 
 
 ###Uniting Best Practices
 
-Getting to know webdevelopment and/or design together with HTML and CSS is hard work. Getting it right together with applying coding guidelines and standards is another pair of shoes. Seperating content from structure is the first step into a reasonable environment which you can extend and build upon. 
+Getting to know webdevelopment and/or design together with HTML and CSS is hard work. Getting it right together with applying coding guidelines and standards is another pair of shoes. Seperating content from structure is the first step into a reasonable environment which you can extend and build upon.
 
 ##Framework
 
@@ -27,6 +27,7 @@ Getting to know webdevelopment and/or design together with HTML and CSS is hard 
 
 Evenly divided elements can be achieved really quick!
 you just have to give the parentelement the class `group` and it will divide all subelements.
+The markup is independent, you just need to assign one class only.
 
 ```html
 <ul class="group">
@@ -36,6 +37,21 @@ you just have to give the parentelement the class `group` and it will divide all
 	<li>item 4</li>
 	<li>item 5</li>
 </ul>
+```
+
+
+####Work in progress
+
+If you do not like evenly sized columns, especially for layout, you can assign 1-4 (one forth) for the first column.
+I currently work on syntax and usage. But I guess everything will be controllable my one class.
+
+yet just a concept.
+
+```html
+<section class="group-1-4">
+	<div>25% Lorem ipsum dolor sit.</div>
+	<div>75% Lorem ipsum dolor sit.</div>
+</section>
 ```
 
 ##Appendix
