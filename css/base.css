@@ -8,49 +8,42 @@ body
 	font-size: 62.5%; /* 1em - 10px for you weirdos out there */
 	font-size: 100%; /* 1em - 16px */
 
-	font-family: Arsenal, sans-serif;
+	font-family: SourceSansPro, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	line-height: 1.33em;
 }
 
 h1
 {
-	font-size: ;
-	line-height: ;
-	margin: ;
+	font-size: 2.5em;
 }
 
 h2
 {
-	font-size: ;
-	line-height: ;
-	margin: ;
+	font-size: 1.75em;
 }
 
 h3
 {
-	font-size: ;
-	line-height: ;
-	margin: ;
+	font-size: 1.33em;
 }
 
 h4
 {
 	font-size: ;
-	line-height: ;
-	margin: ;
 }
 
 h5
 {
 	font-size: ;
-	line-height: ;
-	margin: ;
 }
 
 h6
 {
 	font-size: ;
-	line-height: ;
-	margin: ;
 }
 
 /* Something to remember order of a rules: LoVe HAte
