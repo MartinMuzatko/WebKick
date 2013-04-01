@@ -20,6 +20,7 @@ WebKick adds another bunch of standards to organize templates. This template of 
 ###Uniting Best Practices
 
 Getting to know webdevelopment and/or design together with HTML and CSS is hard work. Getting it right together with applying coding guidelines and standards is another pair of shoes. Seperating content from structure is the first step into a reasonable environment which you can extend and build upon.
+Another hint: there is no minified version yet, I am using the ISO C Standard for line indentation and bracket placing.
 
 ##Framework
 
