@@ -26,6 +26,8 @@ Another hint: there is no minified version yet, I am using the ISO C Standard fo
 
 ###Grouping
 
+Live example: http://codepen.io/MartinMuzatko/pen/bgpnc
+
 Evenly divided elements can be achieved really quick!
 you just have to give the parentelement the class `group` and it will divide all subelements.
 The markup is independent, you just need to assign one class only.
