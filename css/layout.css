@@ -48,8 +48,9 @@
 /* Start of the unlimited framework */
 
 
-.even > *,
-[class*="even"] > *
+.even > *, 
+.group > *,
+[class*="grid"] > *
 {
 	float: left;
 }
