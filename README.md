@@ -58,11 +58,13 @@ yet just a concept.
 
 ##Appendix
 
-###Vendor Scripts
+###Vendor Scripts and Stylesheets
 
 Prefixfree - Lea Verou - https://github.com/LeaVerou
 
 Livereload - https://livereload.com
+
+Reset - Eric Meyer - http://meyerweb.com/eric/tools/css/reset/
 
 ###Browser Testing Results
 
