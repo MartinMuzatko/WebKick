@@ -46,10 +46,7 @@
 
 /* Start of the unlimited framework */
 
-
-.even > *, 
-.group > *,
-[class*="grid"] > *
+.group > *
 {
 	float: left;
 }
