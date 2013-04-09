@@ -13,18 +13,18 @@
 
 /* even elements */
 
-.group:before, [class*="group"]:before,
-.group:after, [class*="group"]:after
+.group:before,
+.group:after
 {
     display: table;
 }
 
-.group:after, [class*="group"]:after
+.group:after
 {
     clear: both;
 }
 
-.group, [class*="group"]
+.group
 {
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
@@ -38,8 +38,7 @@
 	width: 80%;
 }
 
-.group > *,
-[class*="group"] > *
+.group > *
 {
 	border: 1px solid #444;
 	padding: .2em;
