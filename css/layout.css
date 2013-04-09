@@ -32,15 +32,8 @@
 /* Just some silly colors to test the framework */
 /* demonstration of the framework */
 
-.page
-{
-	margin: 2em auto;
-	width: 80%;
-}
-
 .group > *
 {
-	border: 1px solid #444;
 	padding: .4em;
 }
 

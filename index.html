@@ -37,158 +37,228 @@
 		<!-- Livereload for livereload.com usage -->
 		<script>if (location.hostname === "localhost") { document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=2"></' + 'script>') }</script>
 	</head>
-	<body>
+	<body id="ex-1">
 		<!-- section.group>aside+section>article>header(h1{WebKick}+h2{The limitless Framework})+p(lorem50)+footer -->
 
-		<section class="page">
-			<h1>Demonstration of a everydays Website</h1>
+		<section class="group grid-1-5 page">
+			<aside class="navigation">
+				<h1>Navigation</h1>
+				<ol>
+					<li>
+						<a href="#Example">
+							Example
+						</a>
+					</li>
+					<li>
+						<a href="#Grid">
+							Grid
+						</a>
+					</li>
+					<li>
+						<a href="#Even">
+							Even
+						</a>
+					</li>
+				</ol>
+			</aside>	
+			<section class="content">
+				<h1>Demonstration of an everydays Website</h1>
 
-			<section class="group grid-1-4">
-				<aside>
-					<ul>
-						<li>Item 1</li>
-						<li>Item 2</li>
-						<li>Item 3</li>
-						<li>Item 4</li>
-						<li>Item 5</li>
-						<li>Item 6</li>
-						<li>Item 7</li>
-						<li>Item 8</li>
-						<li>Item 9</li>
-						<li>Item 10</li>
-					</ul>
-				</aside>
-				<section>
-					<article>
-						<header>
-							<h1>WebKick</h1>
-							<h2>The limitless Framework</h2>
-							<h3>Used for projects big and small</h3>
-						</header>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime assumenda qui esse repudiandae suscipit dolor amet debitis possimus quaerat officiis obcaecati sit est voluptatum velit porro enim similique odit aliquid laboriosam aliquam dignissimos facere corrupti! Exercitationem aliquid voluptate quae porro doloremque obcaecati a ut vel suscipit explicabo recusandae saepe sed.</p>
-						<footer></footer>
-					</article>
+				<section class="group grid-1-4">
+					<aside>
+						<ul>
+							<li>Item 1</li>
+							<li>Item 2</li>
+							<li>Item 3</li>
+							<li>Item 4</li>
+							<li>Item 5</li>
+							<li>Item 6</li>
+							<li>Item 7</li>
+							<li>Item 8</li>
+							<li>Item 9</li>
+							<li>Item 10</li>
+						</ul>
+					</aside>
+					<section>
+						<article>
+							<header>
+								<h1>WebKick</h1>
+							</header>
+							<p>
+								<h2>Introduction</h2>
+
+								This project used to be my empty projecttemplate for new templates.
+								With further enhancement, Webkick becomes the following.
+
+								WebKick is a lightweight Template/Directory scheme to kickstart your HTML/CSS/JS Templates which you can use for any CMS or Application.
+								Equipped with a lightweight modernizr alternative, it is suited for small and big projects of any kind.
+
+								Like any other project - it includes a lot of other open source to accelerate development.
+								This is not just another boilerplate, it is much more a way to organize your stuff with the benefits of easy and fun workflow.
+
+								<h3>Based on the SMACSS principles</h3>
+
+								The folder structure and the code is based on the SMACSS principles for organizing CSS.
+								WebKick adds another bunch of standards to organize templates. This template of a template works best with TYPO3. But you can however, use it for any other basic templating engine or just build upon this work.
+
+								<h3>Uniting Best Practices</h3>
+
+								Getting to know webdevelopment and/or design together with HTML and CSS is hard work. Getting it right together with applying coding guidelines and standards is another pair of shoes. Seperating content from structure is the first step into a reasonable environment which you can extend and build upon.
+								Another hint: there is no minified version yet.
+								I am using the ISO C Standard for line indentation and bracket placing.
+
+								<h2>Framework</h2>
+
+								<h3>Grouping</h3>
+
+								Live example: http://codepen.io/MartinMuzatko/pen/bgpnc
+
+								Evenly divided elements can be achieved really quick!
+								you just have to give the parentelement the class `group` and it will divide all subelements.
+								The markup is independent, you just need to assign one class only.
+
+								<h3>Work in progress</h3>
+
+								If you do not like evenly sized columns, especially for layout, you can assign 1-4 (one forth) for the first column.
+								I currently work on syntax and usage. But I guess everything will be controllable my one class.
+
+								yet just a concept.
+
+								<h2>Appendix</h2>
+
+								<h3>Vendor Scripts and Stylesheets</h3>
+
+								Prefixfree - Lea Verou - https://github.com/LeaVerou
+
+								Livereload - https://livereload.com
+
+								Reset - Eric Meyer - http://meyerweb.com/eric/tools/css/reset/
+
+								<h3>Browser Testing Results</h3>
+
+								The Framework works with every modern browser. However, IE8 does not support the CSS3 autoframework.
+							</p>
+							<footer></footer>
+						</article>
+					</section>
 				</section>
-			</section>
 
 
-		<h1>Demonstration of .grid-x-y</h1>
+				<h1>Demonstration of .grid-x-y</h1>
 
-				<ul class="group grid-1-2">
-					<li>item 1</li>
-					<li>item 2</li>
-					<li>item 3</li>
-					<li>item 4</li>
-					<li>item 5</li>
-				</ul>
+					<ul class="group grid-1-2">
+						<li>item 1 - This Column width is 50% </li>
+						<li>item 2</li>
+						<li>item 3</li>
+						<li>item 4</li>
+						<li>item 5</li>
+					</ul>
 
-				<ul class="group grid-1-3">
-					<li>item 1</li>
-					<li>item 2</li>
-					<li>item 3</li>
-					<li>item 4</li>
-					<li>item 5</li>
-				</ul>
+					<ul class="group grid-1-3">
+						<li>item 1 - This Column width is 33.3%</li>
+						<li>item 2</li>
+						<li>item 3</li>
+						<li>item 4</li>
+						<li>item 5</li>
+					</ul>
 
-				<ul class="group grid-1-4">
-					<li>item 1</li>
-					<li>item 2</li>
-					<li>item 3</li>
-					<li>item 4</li>
-					<li>item 5</li>
-					<li>item 6</li>
-					<li>item 7</li>
-				</ul>
+					<ul class="group grid-1-4">
+						<li>item 1 - This Column width is 25%</li>
+						<li>item 2</li>
+						<li>item 3</li>
+						<li>item 4</li>
+						<li>item 5</li>
+						<li>item 6</li>
+						<li>item 7</li>
+					</ul>
 
-				<ul class="group grid-1-5">
-					<li>item 1</li>
-					<li>item 2</li>
-					<li>item 3</li>
-					<li>item 4</li>
-					<li>item 5</li>
-					<li>item 6</li>
-					<li>item 7</li>
-				</ul>
+					<ul class="group grid-1-5">
+						<li>item 1 - This Column width is 20%</li>
+						<li>item 2</li>
+						<li>item 3</li>
+						<li>item 4</li>
+						<li>item 5</li>
+						<li>item 6</li>
+						<li>item 7</li>
+					</ul>
 
-		<h1>Demonstration of .even</h1>
+				<h1>Demonstration of .even</h1>
 
-			<section>
-				<ul class="group even">
-					<li>item 1</li>
-				</ul>
-				<ul class="group even">
-					<li>item 1</li>
-					<li>item 2</li>
-				</ul>
-				<ul class="group even">
-					<li>item 1</li>
-					<li>item 2</li>
-					<li>item 3</li>
-				</ul>
-				<ul class="group even">
-					<li>item 1</li>
-					<li>item 2</li>
-					<li>item 3</li>
-					<li>item 4</li>
-				</ul>
-				<ul class="group even">
-					<li>item 1</li>
-					<li>item 2</li>
-					<li>item 3</li>
-					<li>item 4</li>
-					<li>item 5</li>
-				</ul>
-				<ul class="group even">
-					<li>item 1</li>
-					<li>item 2</li>
-					<li>item 3</li>
-					<li>item 4</li>
-					<li>item 5</li>
-					<li>item 6</li>
-				</ul>
-				<ul class="group even">
-					<li>item 1</li>
-					<li>item 2</li>
-					<li>item 3</li>
-					<li>item 4</li>
-					<li>item 5</li>
-					<li>item 6</li>
-					<li>item 7</li>
-				</ul>
-				<ul class="group even">
-					<li>item 1</li>
-					<li>item 2</li>
-					<li>item 3</li>
-					<li>item 4</li>
-					<li>item 5</li>
-					<li>item 6</li>
-					<li>item 7</li>
-					<li>item 8</li>
-				</ul>
-				<ul class="group even">
-					<li>item 1</li>
-					<li>item 2</li>
-					<li>item 3</li>
-					<li>item 4</li>
-					<li>item 5</li>
-					<li>item 6</li>
-					<li>item 7</li>
-					<li>item 8</li>
-					<li>item 9</li>
-				</ul>
-				<ul class="group even">
-					<li>item 1</li>
-					<li>item 2</li>
-					<li>item 3</li>
-					<li>item 4</li>
-					<li>item 5</li>
-					<li>item 6</li>
-					<li>item 7</li>
-					<li>item 8</li>
-					<li>item 9</li>
-					<li>item 10</li>
-				</ul>
-			</section>
+					<ul class="group even">
+						<li>item 1 - 100%</li>
+					</ul>
+					<ul class="group even">
+						<li>item 1 - 50%</li>
+						<li>item 2</li>
+					</ul>
+					<ul class="group even">
+						<li>item 1 - 33.3%</li>
+						<li>item 2</li>
+						<li>item 3</li>
+					</ul>
+					<ul class="group even">
+						<li>item 1 - 25%</li>
+						<li>item 2</li>
+						<li>item 3</li>
+						<li>item 4</li>
+					</ul>
+					<ul class="group even">
+						<li>item 1 - 20%</li>
+						<li>item 2</li>
+						<li>item 3</li>
+						<li>item 4</li>
+						<li>item 5</li>
+					</ul>
+					<ul class="group even">
+						<li>item 1 - 16.6%</li>
+						<li>item 2</li>
+						<li>item 3</li>
+						<li>item 4</li>
+						<li>item 5</li>
+						<li>item 6</li>
+					</ul>
+					<ul class="group even">
+						<li>item 1 - 14.3%</li>
+						<li>item 2</li>
+						<li>item 3</li>
+						<li>item 4</li>
+						<li>item 5</li>
+						<li>item 6</li>
+						<li>item 7</li>
+					</ul>
+					<ul class="group even">
+						<li>item 1 - 12.5%</li>
+						<li>item 2</li>
+						<li>item 3</li>
+						<li>item 4</li>
+						<li>item 5</li>
+						<li>item 6</li>
+						<li>item 7</li>
+						<li>item 8</li>
+					</ul>
+					<ul class="group even">
+						<li>item 1 - 11.1%</li>
+						<li>item 2</li>
+						<li>item 3</li>
+						<li>item 4</li>
+						<li>item 5</li>
+						<li>item 6</li>
+						<li>item 7</li>
+						<li>item 8</li>
+						<li>item 9</li>
+					</ul>
+					<ul class="group even">
+						<li>item 1 - 10%</li>
+						<li>item 2</li>
+						<li>item 3</li>
+						<li>item 4</li>
+						<li>item 5</li>
+						<li>item 6</li>
+						<li>item 7</li>
+						<li>item 8</li>
+						<li>item 9</li>
+						<li>item 10</li>
+					</ul>
 		</section>
 
 	</body>
