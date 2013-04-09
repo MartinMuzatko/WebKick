@@ -11,7 +11,7 @@
 	box-sizing: border-box;
 }
 
-/* even elements */
+/* Float Containment */
 
 .group:before, [class*="group"]:before,
 .group:after, [class*="group"]:after
@@ -29,13 +29,9 @@
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
+/* Optional */
 
-
-
-
-
-
-
-
-
-
+.group > *
+{
+	float: left;
+}
