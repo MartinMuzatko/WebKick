@@ -5,6 +5,13 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<title>WebKick - Project Kickstarter</title>
+		<link rel="apple-touch-icon" href="touchicon.png">
+		<link rel="icon" href="favicon.png">
+		<!--[if IE]>
+			<link rel="shortcut icon" href="favicon.ico">
+		<![endif]-->
+		<meta name="msapplication-TileColor" content="#D83434">
+		<meta name="msapplication-TileImage" content="tileicon.png">
 		<!-- Stylesheet.css is an alternative if you do not care about prefixfree/livereload -->
 		<!--
 		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
@@ -20,20 +27,13 @@
 		<link rel="stylesheet" type="text/css" href="css/modules/example.css" />
 		<!-- Fonts by http://www.fontsquirrel.com/fonts/Source-Sans-Pro -->
 		<link rel="stylesheet" type="text/css" href="fonts/SourceSansPro/font.css" />
-		<!-- Scripts -->
+		<!-- All lightweight Scripts that should go to the header for element preloading/including -->
+		<!-- HTML5SHIV equivalent -->
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="js/vendor/html5elements.js"></script>
+		<![endif]-->
 		<!-- PREFIXFREE and LIVERELOAD only work with the <link> elements, not with @import ! -->
 		<script type="text/javascript" src="js/vendor/prefixfree.js"></script>
-		<!-- HTML5SHIV equivalent -->
-
-		<!--[if lt IE 9]>
-		<script type="text/javascript" src="js/vendor/html5elements.js"></script>
-		<![endif]-->
-
-		<!-- JQUERY uncomment if needed -->
-		<!--
-		<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
-		<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
-		-->
 		<!-- Livereload for livereload.com usage -->
 		<script>if (location.hostname === "localhost") { document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=2"></' + 'script>') }</script>
 	</head>
@@ -262,5 +262,11 @@
 					</ul>
 		</section>
 
+		<!-- Heavier scripts go to the bottom -->
+		<!-- JQUERY uncomment if needed -->
+		<!--
+		<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+		-->
 	</body>
 </html>
