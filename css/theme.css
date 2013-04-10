@@ -14,8 +14,12 @@
 
 #ex-1 .page .group > *
 {
-	margin: 0 0 1em;
 	border: 1px solid #444;
+}
+
+#ex-1 .page .group
+{
+	margin: 0 0 1em;
 }
 
 #ex-1 .content
