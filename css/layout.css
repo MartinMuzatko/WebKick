@@ -26,15 +26,7 @@
 
 .group
 {
-    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
-}
-
-/* Just some silly colors to test the framework */
-/* demonstration of the framework */
-
-.group > *
-{
-	padding: .4em;
+    *zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
 /* Start of the unlimited framework */
