@@ -5,15 +5,34 @@ body
 {
 	height: 100%;
 	width: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea 
+{
+	color: #333;
+}
+
+body
+{
 	font-size: 62.5%; /* 1em - 10px for you weirdos out there */
 	font-size: 100%; /* 1em - 16px */
-
 	font-family: SourceSansPro, sans-serif;
+	line-height: 1.4em;
+}
+
+p
+{
+	line-height: 1.3em;
 }
 
 h1, h2, h3, h4, h5, h6
 {
 	line-height: 1.33em;
+	margin: 0;
 }
 
 h1
@@ -31,46 +50,49 @@ h3
 	font-size: 1.33em;
 }
 
+/* Has anyone ever used more than 3 different headings? */
+
 h4
 {
-	font-size: ;
+	font-size: 1.25em;
 }
 
 h5
 {
-	font-size: ;
+	font-size: 1em;
 }
 
 h6
 {
-	font-size: ;
+	font-size: .8em;
 }
 
 /* Something to remember order of a rules: LoVe HAte
  * To take care about specificity overrides.
  */
 
-a:link
+a:link, a.link
+{
+	text-decoration: none;
+	color: rgb(96, 128, 224);
+}
+
+a:visited, a.visited
+{
+	color: rgb(64, 96, 192);
+}
+
+a:hover, a.hover
+{
+	color: rgb(128, 160, 224);
+}
+
+a:active, a.active
 {
 
 }
 
-a:visited
-{
-
-}
-
-a:hover
-{
-
-}
-
-a:active
-{
-
-}
-
-a:focus
+a:focus, a.focus
 {
 
 }
