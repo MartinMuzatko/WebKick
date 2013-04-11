@@ -66,6 +66,9 @@ Livereload - https://livereload.com
 
 Reset - Eric Meyer - http://meyerweb.com/eric/tools/css/reset/
 
+#####As long as I can't find another one
+HTACCESS - Paul Irish - HTML5Boilerplate - https://github.com/h5bp/html5-boilerplate/blob/master/.htaccess
+
 ###Browser Testing Results
 
 The Framework works with every modern browser. However, IE8 does not support the CSS3 autoframework.
