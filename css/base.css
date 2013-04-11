@@ -5,10 +5,23 @@ body
 {
 	height: 100%;
 	width: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea 
+{
+    color: #333;
+}
+
+body
+{
 	font-size: 62.5%; /* 1em - 10px for you weirdos out there */
 	font-size: 100%; /* 1em - 16px */
 	font-family: SourceSansPro, sans-serif;
-	color: #333;
+	line-height: 1.4em;
 }
 
 p
