@@ -26,25 +26,16 @@
 
 .group
 {
-<<<<<<< HEAD
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
-/* Optional */
-=======
-    *zoom: 1; /* For IE 6/7 (trigger hasLayout) */
-}
-
 /* Start of the unlimited framework */
->>>>>>> 69ba0938bb0fcd7e6ab0cf424dc1be5e0dfd57da
 
 .group > *
 {
 	float: left;
-<<<<<<< HEAD
 }
-=======
-}
+
 
 .even > *:first-child:nth-last-child(1)
 {
@@ -358,13 +349,3 @@ col	1		2		3		4		5		6		7		8		9		10
 {
 	width: 8.889%;
 }
-
-
-
-
-
-
-
-
-
->>>>>>> 69ba0938bb0fcd7e6ab0cf424dc1be5e0dfd57da
