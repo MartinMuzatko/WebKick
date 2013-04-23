@@ -9,3 +9,45 @@
 	background: url(../img/ruler-top.gif)  repeat-x,
 				url(../img/ruler-left.gif) repeat-y;
 }
+
+/* Homepage Example */
+
+#ex-1 .page .group > *
+{
+	border: 1px solid #444;
+}
+
+#ex-1 .page .group
+{
+	margin: 0 0 1em;
+}
+
+#ex-1 .content
+{
+	padding: 0 0 0 1em;
+}
+
+body#ex-1
+{
+	background: #f2f2f2;
+}
+
+#ex-1 .page
+{
+	width: 90%;
+	margin: 2em auto;
+	padding: 1em;
+	background: #fff;
+	box-shadow: 0 0 12px #999;
+}
+
+#ex-1 .navigation
+{
+	border: 1px solid #555;
+	border-radius: .5em;
+}
+
+#ex-1 .group > *
+{
+	padding: .4em;
+}
