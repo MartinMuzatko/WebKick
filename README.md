@@ -9,6 +9,7 @@ Equipped with a lightweight modernizr alternative, it is suited for small and bi
 
 Like any other project - it includes a lot of other open source to accelerate development.
 This is not just another boilerplate, it is much more a way to organize your stuff with the benefits of easy and fun workflow.
+WebKick contains a Toolset of scripts which can make work a lot more easy.
 
 ###Based on the SMACSS principles
 
