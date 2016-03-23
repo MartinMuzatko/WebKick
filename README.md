@@ -1,6 +1,8 @@
 #WebKick
 ##Introduction
 
+!! This Repo is no longer maintained.
+
 This project used to be my empty projecttemplate for new templates.
 With further enhancement, Webkick becomes the following.
 
